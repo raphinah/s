@@ -25,11 +25,7 @@ restaurante_cafe.receber_avaliacao('Benji', 9)
 restaurante_cafe.receber_avaliacao('Tu', 2)
 
 # Avaliações para Pizza Suprema
-restaurante_pizza.receber_avaliacao('Ana', 9)
-restaurante_pizza.receber_avaliacao('Carlos', 8)
-restaurante_pizza.receber_avaliacao('Marcos', 10)
-restaurante_pizza.receber_avaliacao('Joana', 7)
-restaurante_pizza.receber_avaliacao('Fernanda', 8)
+
 
 # Avaliações para Verde Vida
 restaurante_veggie.receber_avaliacao('Bruna', 10)
