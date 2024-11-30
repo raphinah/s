@@ -38,5 +38,6 @@ class Restaurante:
         soma_das_notas = sum(avaliacao._nota for avaliacao in self._avaliacao)
         quantidade_de_notas = len(self._avaliacao)
         media = round(soma_das_notas / quantidade_de_notas, 1)
-        return media 
+        media = min(media, 5)
+        return '5.0' if media == 5 else media
     

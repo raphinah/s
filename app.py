@@ -39,25 +39,25 @@ restaurante_veggie.receber_avaliacao('Clara', 10)
 restaurante_veggie.receber_avaliacao('Mateus', 9)
 
 # Avaliações para Mar Azul
-restaurante_peixe.receber_avaliacao('Marina', 8)
-restaurante_peixe.receber_avaliacao('João', 7)
-restaurante_peixe.receber_avaliacao('Sophia', 9)
-restaurante_peixe.receber_avaliacao('Diego', 6)
-restaurante_peixe.receber_avaliacao('Juliana', 8)
+restaurante_peixe.receber_avaliacao('Marina', 4)
+restaurante_peixe.receber_avaliacao('João', 0)
+restaurante_peixe.receber_avaliacao('Sophia', 1)
+restaurante_peixe.receber_avaliacao('Diego', 5)
+restaurante_peixe.receber_avaliacao('Juliana', 7)
 
 # Avaliações para Fiesta Mexicana
-restaurante_mexicano.receber_avaliacao('Luís', 6)
-restaurante_mexicano.receber_avaliacao('Carla', 9)
-restaurante_mexicano.receber_avaliacao('Gabriel', 8)
+restaurante_mexicano.receber_avaliacao('Luís', 4)
+restaurante_mexicano.receber_avaliacao('Carla', 3)
+restaurante_mexicano.receber_avaliacao('Gabriel', 1)
 restaurante_mexicano.receber_avaliacao('Tânia', 7)
-restaurante_mexicano.receber_avaliacao('Rodrigo', 10)
+restaurante_mexicano.receber_avaliacao('Rodrigo', 0)
 
 # Avaliações para Le Gourmet
-restaurante_frances.receber_avaliacao('Renata', 10)
+restaurante_frances.receber_avaliacao('Renata', 0)
 restaurante_frances.receber_avaliacao('Gustavo', 9)
-restaurante_frances.receber_avaliacao('Isabela', 10)
+restaurante_frances.receber_avaliacao('Isabela', 1)
 restaurante_frances.receber_avaliacao('Arthur', 8)
-restaurante_frances.receber_avaliacao('Beatriz', 9)
+restaurante_frances.receber_avaliacao('Beatriz', 2)
 
 
 def main():
