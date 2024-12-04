@@ -1,5 +1,6 @@
 from modelos.avaliacao import Avaliacao
 from modelos.cardapio.item_cardapio import ItemCardapio
+from modelos.cardapio.sobremesa import Sobremesa
 
 class Restaurante:
     restaurantes = []
@@ -52,8 +53,12 @@ class Restaurante:
         print(f'Cardapio do restaurante {self._nome}\n')
         for i,item in enumerate(self._cardapio,start=1):
             if hasattr(item,'_descricao'):
-                mensagem_prato = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Descrição: {item._descricao}'
-                print(mensagem_prato)
+                if isinstance(item, Sobremesa):
+                    mensagem_sobremesa = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Tipo: {item._tipo} | Tamanho: {item._tamanho} | Descrição: {item._descricao}'
+                    print(mensagem_sobremesa)
+                else:
+                    mensagem_prato = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Descrição: {item._descricao}'
+                    print(mensagem_prato)
             else:
                 mensagem_bebida = f'{i}. Nome: {item._nome} | Preço: R${item._preco} | Tamanho: {item._tamanho}'
                 print(mensagem_bebida)
